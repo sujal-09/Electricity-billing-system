@@ -71,12 +71,14 @@ Create a database named `electricity_db` with the following tables:
 ---
 
 ## 📸 Screenshots
-![Main](https://github.com/user-attachments/assets/eee0a142-9437-4ade-9612-76f2f9f3e8d3)
-![Login](https://github.com/user-attachments/assets/004e5168-4f81-45aa-8958-94fc2dd7e5f6)
-![GenerateBill](https://github.com/user-attachments/assets/f05bdd7c-9626-4d01-b45d-42384ee577d0)
-![Details](https://github.com/user-attachments/assets/66b30699-6b25-400a-a7bb-69d7c4f61c6a)
-![CalculateBill](https://github.com/user-attachments/assets/1b9128c6-8de9-4e03-b489-71a9ee783b54)
-![AddC](https://github.com/user-attachments/assets/768519c2-268c-4cbc-acb1-0b75768a0150)
+![Main](https://github.com/user-attachments/assets/18ab544c-6f74-4e0f-b588-8a0511fda05f)
+![Login](https://github.com/user-attachments/assets/ec795e0e-880a-464f-8ae9-969397da7da5)
+![GenerateBill](https://github.com/user-attachments/assets/98884237-8e22-49f0-8cfd-4d8faf67bf75)
+![Details](https://github.com/user-attachments/assets/154b7f81-5bcc-4832-a5a3-8f545052a273)
+![CalculateBill](https://github.com/user-attachments/assets/a5d7d5b1-ab35-4aef-bd54-ee7499a8e211)
+![AddC](https://github.com/user-attachments/assets/792061f6-377d-435c-9a61-88dffbb00aee)
+
+
 
 
 
