@@ -72,7 +72,6 @@ Create a database named `electricity_db` with the following tables:
 
 ## 📸 Screenshots
 ![Main](https://github.com/user-attachments/assets/18ab544c-6f74-4e0f-b588-8a0511fda05f)
-![Login](https://github.com/user-attachments/assets/ec795e0e-880a-464f-8ae9-969397da7da5)
 ![GenerateBill](https://github.com/user-attachments/assets/98884237-8e22-49f0-8cfd-4d8faf67bf75)
 ![Details](https://github.com/user-attachments/assets/154b7f81-5bcc-4832-a5a3-8f545052a273)
 ![CalculateBill](https://github.com/user-attachments/assets/a5d7d5b1-ab35-4aef-bd54-ee7499a8e211)
