@@ -7,7 +7,7 @@ public class conn {
     public conn() {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/electricity_db", "root", "))))");
+            c = DriverManager.getConnection("jdbc:mysql://localhost:3306/ebs", "root", "0000");
             s = c.createStatement();
         } catch (Exception e) {
             System.out.println(e);

@@ -33,7 +33,7 @@ public class login extends JFrame implements ActionListener
         b1.addActionListener(this);
         b2.addActionListener(this);
 
-        ImageIcon ic3=new ImageIcon(ClassLoader.getSystemResource("images/pop.jpg"));
+        ImageIcon ic3=new ImageIcon(ClassLoader.getSystemResource("images/loginpop.jpg"));
         Image i3=ic3.getImage().getScaledInstance(340,370,Image.SCALE_DEFAULT);
         ImageIcon icc3=new ImageIcon(i3);
 

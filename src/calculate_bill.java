@@ -104,8 +104,8 @@ public class calculate_bill extends JFrame implements ActionListener
         int p2 = p1*7;
         int p3 = p2+50+12+102+20+50;
 
-        String q = "insert into bill values('"+a+"','"+c+"','"+b+"','"+p3+"')";
-
+        String q = "insert into bill(meter_number,month,units,totalbill,status) "
+                + "values('"+a+"','"+c+"','"+b+"','"+p3+"','Not Paid')";
         try{
             conn c1 = new conn();
             c1.s.executeUpdate(q);
