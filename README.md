@@ -120,4 +120,44 @@ git clone https://github.com/sujal-09/Electricity-billing-system.git
 
 Open project folder
 
-### 3 Setup M
+### 3 Setup MySQL
+
+Update credentials inside:
+
+```
+conn.java
+```
+
+```
+Connection c = DriverManager.getConnection(
+"jdbc:mysql:///electricity_db",
+"root",
+"password"
+);
+```
+
+### 4 Run Project
+
+Run:
+
+```
+Splash.java
+```
+
+OR
+
+```
+Project.java
+```
+
+---
+
+# 🎯 Resume Description
+
+Developed a Java Swing-based Electricity Billing System with MySQL integration supporting customer management, bill generation, and payment processing. Implemented JDBC connectivity, authentication system, and interactive GUI for efficient billing workflow.
+
+---
+
+# ⭐ Show Your Support
+
+If you like this project, give it a ⭐ on GitHub.
