@@ -2,83 +2,122 @@
 
 This is a **Java-based GUI application** for managing electricity billing operations. It supports user login, customer registration, bill generation, payment processing, and more — all built using **Java Swing** and **MySQL (JDBC)**.
 
-> 👨‍💻 Developed by [Sujal Chouksey].
-> 🛠 IDE Used: IntelliJ IDEA\
-> 💾 Database: MySQL\
-> 📚 Libraries: JDBC (MySQL Connector/J)
+👨‍💻 Developed by **Sujal Chouksey**
+🛠 IDE Used: IntelliJ IDEA
+💾 Database: MySQL
+📚 Libraries: JDBC (MySQL Connector/J)
 
 ---
 
-## ✨ Features
+# ✨ Features
 
-- 👤 User login system for secure access
-- 🧾 Add and manage customer details
-- 📊 Generate and view electricity bills
-- 💸 Pay bills securely
-- 📄 View and print past bills
-- 🖼️ Interactive and user-friendly Swing-based GUI
-
----
-
-## 🗂️ Project Structure
-
-- `Splash.java` – Intro splash screen
-- `Login.java` – User authentication
-- `Project.java` – Main system dashboard
-- `new_customer.java` – Add customer form
-- `customer_details.java` – Show/edit customer data
-- `generate_bill.java` – Bill calculation and generation
-- `pay_bill.java` – Payment interface
-- `LastBill.java` – View last bill
-- `conn.java` – JDBC connection setup
+* 🔐 User login system for secure access
+* 👤 Add and manage customer details
+* 📊 Generate electricity bills
+* 💸 Pay bills
+* 🧾 View last bill
+* 📄 View customer details
+* 🗄 MySQL database integration
+* 🖼️ Interactive Swing GUI
 
 ---
 
-## 🛢️ Database Schema (MySQL)
+# 🗂️ Project Structure
 
-Create a database named `electricity_db` with the following tables:
+```
+Splash.java          → Splash screen
+Login.java           → User login
+Project.java         → Main dashboard
+new_customer.java    → Add customer
+customer_details.java→ Customer details
+generate_bill.java   → Generate bill
+pay_bill.java        → Pay bill
+LastBill.java        → Last bill view
+conn.java            → Database connection
+```
 
-### `Login`
+---
+
+# 🛢️ Database Schema (MySQL)
+
+Create database:
+
+```sql
+CREATE DATABASE electricity_db;
+USE electricity_db;
+```
+
+### Login Table
 
 | username | password |
 | -------- | -------- |
 
-### `Emp`
+### Emp Table
 
-| name | meter\_number | address | state | city | email | phone |
-| ---- | ------------- | ------- | ----- | ---- | ----- | ----- |
+| name | meter_number | address | state | city | email | phone |
 
-### `Bill`
+### Bill Table
 
-| meter\_number | units | month | amount |
-| ------------- | ----- | ----- | ------ |
+| meter_number | units | month | amount |
 
-### `Tax`
+### Tax Table
 
-| meter\_location | meter\_type | phase\_code | bill\_type | days | meter\_rent | mcb\_rent | service\_rent | gst |
-| --------------- | ----------- | ----------- | ---------- | ---- | ----------- | --------- | ------------- | --- |
+| meter_location | meter_type | phase_code | bill_type | days | meter_rent | mcb_rent | service_rent | gst |
 
 ---
 
-## 🔧 Technologies Used
+# 🔧 Technologies Used
 
-- **Java** (JDK 8+)
-- **Swing** for GUI
-- **JDBC** for database connection
-- **MySQL** for data storage
-- **IntelliJ IDEA** as IDE
+* Java (JDK 8+)
+* Java Swing (GUI)
+* JDBC (Database Connectivity)
+* MySQL (Database)
+* IntelliJ IDEA (IDE)
 
 ---
 
-## 📸 Screenshots
-![Main](https://github.com/user-attachments/assets/18ab544c-6f74-4e0f-b588-8a0511fda05f)
+# 📸 Application Screenshots
+
+## 🔐 Login Screen
+
+![Login](ScreenShots/login.png)
+
+## 🏠 Main Dashboard
+
+![Main](ScreenShots/main.png)
+
+## 💳 Pay Bill
+
+![PayBill](ScreenShots/paybill.png)
+
+## ⚡ Generate Bill
+
 ![GenerateBill](https://github.com/user-attachments/assets/98884237-8e22-49f0-8cfd-4d8faf67bf75)
+
+## 📋 Customer Details
+
 ![Details](https://github.com/user-attachments/assets/154b7f81-5bcc-4832-a5a3-8f545052a273)
+
+## 🧾 Calculate Bill
+
 ![CalculateBill](https://github.com/user-attachments/assets/a5d7d5b1-ab35-4aef-bd54-ee7499a8e211)
-![AddC](https://github.com/user-attachments/assets/792061f6-377d-435c-9a61-88dffbb00aee)
 
+## ➕ Add Customer
 
+![AddCustomer](https://github.com/user-attachments/assets/792061f6-377d-435c-9a61-88dffbb00aee)
 
+---
 
+# 🚀 How to Run
 
+### 1 Clone repository
 
+```
+git clone https://github.com/sujal-09/Electricity-billing-system.git
+```
+
+### 2 Open in IntelliJ / Eclipse
+
+Open project folder
+
+### 3 Setup M
